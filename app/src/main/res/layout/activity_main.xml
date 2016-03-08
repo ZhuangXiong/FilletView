@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:text="按钮       FilletButton\n点击背景颜色 xe_pressbgColor\n边框点击颜色 xe_pressstokeColor "
+                android:text="按钮       FilletButton\n点击背景颜色 xe_pressbgColor\n边框点击颜色 xe_pressstrokeColor "
                 android:textColor="#FFED152B" />
 
             <xemenes.filletlib.widget.FilletButton
@@ -61,7 +61,7 @@
                 android:layout_margin="10dp"
                 fv:xe_background="#FFCEEFEF"
                 fv:xe_pressbgColor="#FF66E7E7"
-                fv:xe_pressstokeColor="#FFB70114"
+                fv:xe_pressstrokeColor="#FFB70114"
                 fv:xe_radius="10dp"
                 fv:xe_strokeColor="#FFED152B"
                 fv:xe_strokeWith="1dp" />

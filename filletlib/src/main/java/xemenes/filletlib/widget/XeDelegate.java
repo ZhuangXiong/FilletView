@@ -49,7 +49,7 @@ public class XeDelegate {
         storkeWith = ta.getDimensionPixelSize(R.styleable.SearchView_xe_strokeWith,Color.TRANSPARENT);
 
         pressbgColor = ta.getColor(R.styleable.SearchView_xe_pressbgColor,Integer.MAX_VALUE);
-        pressstokeColor = ta.getColor(R.styleable.SearchView_xe_pressstokeColor,Integer.MAX_VALUE);
+        pressstokeColor = ta.getColor(R.styleable.SearchView_xe_pressstrokeColor,Integer.MAX_VALUE);
 
         radius = ta.getDimensionPixelSize(R.styleable.SearchView_xe_radius,0);
         radius_TL = ta.getDimensionPixelSize(R.styleable.SearchView_xe_radius_Tl,0);

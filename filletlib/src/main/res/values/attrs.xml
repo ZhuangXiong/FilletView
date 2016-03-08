@@ -11,7 +11,7 @@
     <attr name="xe_strokeColor" format="color"/>
 
     <attr name="xe_pressbgColor" format="color"/>
-    <attr name="xe_pressstokeColor" format="color"/>
+    <attr name="xe_pressstrokeColor" format="color"/>
 
     <declare-styleable name="SearchView">
         <attr name="xe_radius"/>
@@ -26,7 +26,7 @@
         <attr name="xe_strokeColor" />
 
         <attr name="xe_pressbgColor" />
-        <attr name="xe_pressstokeColor"/>
+        <attr name="xe_pressstrokeColor"/>
     </declare-styleable>
     
 </resources>
