@@ -15,5 +15,6 @@
         <attr name="xe_strokeColor" />    边框颜色
         <attr name="xe_pressbgColor" />   点击时背景颜色
         <attr name="xe_pressstokeColor"/> 点击时背景框颜色
-  
+---
+![image](https://github.com/ZhuangXiong/FilletView/blob/master/device-2016-03-08-153639.png?raw=true)
  
