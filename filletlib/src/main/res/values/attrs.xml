@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="xe_radius" format="dimension"/>
+    <attr name="xe_radius_TR" format="dimension"/>
+    <attr name="xe_radius_Tl" format="dimension"/>
+    <attr name="xe_radius_BR" format="dimension"/>
+    <attr name="xe_radius_BL" format="dimension"/>
+
+    <attr name="xe_background" format="color"/>
+    <attr name="xe_strokeWith" format="dimension"/>
+    <attr name="xe_strokeColor" format="color"/>
+
+    <attr name="xe_pressbgColor" format="color"/>
+    <attr name="xe_pressstokeColor" format="color"/>
+
+    <declare-styleable name="SearchView">
+        <attr name="xe_radius"/>
+        <attr name="xe_radius_TR" />
+        <attr name="xe_radius_Tl" />
+
+        <attr name="xe_radius_BR" />
+        <attr name="xe_radius_BL" />
+
+        <attr name="xe_background" />
+        <attr name="xe_strokeWith" />
+        <attr name="xe_strokeColor" />
+
+        <attr name="xe_pressbgColor" />
+        <attr name="xe_pressstokeColor"/>
+    </declare-styleable>
+    
+</resources>

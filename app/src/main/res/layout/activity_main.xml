@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fv="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="输入框       FilletEditText\n圆角半径   xe_radius \n背景颜色   xe_background\n边框厚度   xe_strokeWith\n边框颜色   xe_strokeColor\n "
+                android:textColor="#FFED152B" />
+
+
+            <xemenes.filletview.widget.FilletEditText
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                fv:xe_background="#FFCEEFEF"
+                fv:xe_radius="5dp"
+                fv:xe_strokeColor="#FFED152B"
+                fv:xe_strokeWith="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="文本框       FilletTextView\n左上圆角半径   xe_TL \n"
+                android:textColor="#FFED152B" />
+
+            <xemenes.filletview.widget.FilleTextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                fv:xe_background="#FFCEEFEF"
+                fv:xe_radius_Tl="10dp"
+                fv:xe_strokeColor="#FFED152B"
+                fv:xe_strokeWith="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="按钮       FilletButton\n点击背景颜色 xe_pressbgColor\n边框点击颜色 xe_pressstokeColor "
+                android:textColor="#FFED152B" />
+
+            <xemenes.filletview.widget.FilletButton
+                android:id="@+id/ft"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                fv:xe_background="#FFCEEFEF"
+                fv:xe_pressbgColor="#FF66E7E7"
+                fv:xe_pressstokeColor="#FFB70114"
+                fv:xe_radius="10dp"
+                fv:xe_strokeColor="#FFED152B"
+                fv:xe_strokeWith="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="还支持布局 RL，LL，FL "
+                android:textColor="#FFED152B" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
