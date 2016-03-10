@@ -17,4 +17,9 @@
         <attr name="xe_pressstokeColor"/> 点击时背景框颜色
 
 ![image](https://github.com/ZhuangXiong/FilletView/blob/master/device-2016-03-08-155517.png?raw=true)
- 
+
+---
+
+## Android Studio  在build.gradle的dependencies加入: 
+
+> compile 'xemenes.library.view:filletlib:1.0.1'
