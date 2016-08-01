@@ -1,5 +1,12 @@
+
+
 # FilletView
 圆角EditeView,TextView,Button，RealtiveLayout,LinearLayout,FramLayout。
+
+# 使用 Android Studio  在build.gradle的dependencies加入: 
+
+> compile 'xemenes.library.view:filletlib:1.0.1'
+
 
 ## 只为节省shap的定义
 > 自定义参数说明  
@@ -20,6 +27,4 @@
 
 ---
 
-## Android Studio  在build.gradle的dependencies加入: 
 
-> compile 'xemenes.library.view:filletlib:1.0.1'
